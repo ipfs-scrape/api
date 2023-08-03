@@ -26,7 +26,7 @@ func main() {
 	}
 
 	// Use the IPFS_DYNAMODB_NAME environment variable
-	logrus.Infof("IPFS_DYNAMODB_NAME: %s\n", dynamodbName)
+	logrus.Infof("IPFS_DYNAMODB_NAME: %s", dynamodbName)
 
 	sess, err := session.NewSession()
 	if err != nil {
